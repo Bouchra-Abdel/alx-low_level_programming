@@ -1,25 +1,14 @@
-#include <time.h>
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ *
+ * Return: Always 1 (Success)
  */
-
 int main(void)
-
 {
-	int d;
-	char low;
-
-	for (d = '0'; d <= '9'; d++)
-	putchar(d);
-
-	for (low = 'a'; low <= 'f'; low++)
-	putchar(low);
-	putchar('\n');
-
-	return (0);
+	write(2,
+	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
-
