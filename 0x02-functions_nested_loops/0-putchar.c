@@ -1,4 +1,5 @@
- * main - Entry point
+/**
+* main - Entry point
  *
  * Description: prints _putchar using putchar prptptype
  *
