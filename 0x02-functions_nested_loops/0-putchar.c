@@ -9,11 +9,10 @@
 int main(void)
 {
 	char str[] = "_putchar";
-	int ch;
+	int i=0;
 
-	for (ch = 0; ch < 8; ch++)
-		_putchar(str[ch]);
-	_putchar('\n');
-
+	for (i;i < str.stlen(); i++){
+	    putchar(str[i]);
+	}
 	return (0);
 }
