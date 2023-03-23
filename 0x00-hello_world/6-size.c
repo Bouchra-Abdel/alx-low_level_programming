@@ -1,20 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - Entry of the program
+ * Return: Always returns (0)
  */
-
 int main(void)
-
 {
-	int d;
-
-	for (d = '0'; d <= '9'; d++)
-	putchar(d);
-	putchar('\n');
-
-	return (0);
+	long long int D;
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(char));
+printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(int));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(long int));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(D));
+printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(float));
+return (0);
 }
